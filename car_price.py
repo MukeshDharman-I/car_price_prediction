@@ -7,6 +7,16 @@ Original file is located at
     https://colab.research.google.com/drive/1bkguMIB5abifSLdVxoC6rfEhj9lprBxg
 """
 
+"""
+DATASET:
+
+This project uses data from [Hugging Face Datasets](https://huggingface.co/datasets):
+
+[`jayaprakash-m/linearRegressionDS`](https://huggingface.co/datasets/jayaprakash-m/linearRegressionDS)
+
+> Dataset includes specifications of used cars such as engine power, fuel type, seating capacity, etc.
+"""
+
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
